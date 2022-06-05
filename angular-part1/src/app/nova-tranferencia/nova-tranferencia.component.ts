@@ -9,4 +9,14 @@ import { Component } from '@angular/core';
 
 export class novaTranferenciaComponent{
 
+  valor: number = 0 ;
+  destino: number = 0;
+
+  tranferir(): void{
+    console.log("✔ Solicitado nova tranferencia!");
+    console.log('Valor: ', this.valor);
+    console.log('Destino: ', this.destino);
+  }
 }
+
+
